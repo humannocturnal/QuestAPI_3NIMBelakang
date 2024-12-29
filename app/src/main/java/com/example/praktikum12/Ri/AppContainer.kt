@@ -20,6 +20,7 @@ class MahasiswaContainer : AppContainer {
         retrofit.create(MahasiswaService::class.java)
     }
 
+
     override val mahasiswaRepository: MahasiswaRepository by lazy {
         object : MahasiswaRepository {
             override suspend fun getMahasiswa() = mahasiswaService.getAllMahasiswa()
