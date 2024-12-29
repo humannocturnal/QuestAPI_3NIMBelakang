@@ -23,6 +23,7 @@ fun InsertView(
     var kelas by remember { mutableStateOf("") }
     var angkatan by remember { mutableStateOf("") }
 
+
     Column(
         modifier = Modifier
             .fillMaxSize()
