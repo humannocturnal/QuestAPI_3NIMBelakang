@@ -10,6 +10,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.praktikum12.ViewModel.InsertViewModel
 
+
 @Composable
 fun InsertView(
     viewModel: InsertViewModel = viewModel(),
