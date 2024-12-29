@@ -44,3 +44,4 @@ class MahasiswaApplications {
 fun CreationExtras.aplikasiKontak(): MahasiswaApplications {
     return this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as MahasiswaApplications
 }
+
