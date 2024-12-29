@@ -45,3 +45,4 @@ data class InsertUiState(
     val kelas: String = "",
     val angkatan: String = ""
 )
+
