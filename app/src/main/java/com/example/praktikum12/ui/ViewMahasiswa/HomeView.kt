@@ -18,3 +18,4 @@ fun HomeView(
         is HomeUiState.Error -> {/* Display error */}
     }
 }
+
