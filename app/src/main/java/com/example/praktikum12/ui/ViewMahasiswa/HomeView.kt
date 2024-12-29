@@ -7,6 +7,7 @@ import com.example.praktikum12.ViewModel.HomeViewModel
 import com.example.praktikum12.ui.ViewModel.HomeUiState
 import com.example.praktikum12.ui.ViewModel.HomeViewModel
 
+
 @Composable
 fun HomeView(
     viewModel: HomeViewModel = viewModel()
